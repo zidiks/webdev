@@ -1,2 +1,2 @@
 # webdev
-Webdew template
+Webdew by Zidiks
