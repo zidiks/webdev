@@ -718,9 +718,9 @@ color: #4E4E4E;
     color: #373737;
 }
 
-#subscribe-form-input:invalid:not(:placeholder-shown) {
-    background-color: #ffd0d0;
+#subscribe-form-input:invalid:not(:placeholder-shown) + #subscribe-form-submit{
+    background-color: #ff4a4a !important;
 }
-#subscribe-form-input:valid:not(:placeholder-shown) {
-    background-color: #d9ffd0;
+#subscribe-form-input:valid:not(:placeholder-shown) + #subscribe-form-submit{
+    background-color: #40e26b !important;
 }
