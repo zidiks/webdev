@@ -225,27 +225,30 @@ nav {
     color: #FFFFFF;
 }
 
-#your-life-button {
+#your-life-btn {
+    position: absolute;
+    left: 707px;
+    top: 406px;
+}
+
+.get-started-btn {
     z-index: 2;
     outline: none;
     display: flex;
     flex-direction: row;
     padding: 15px 47px;
-    position: absolute;
     width: 184px;
     height: 46px;
-    left: 707px;
-    top: 406px;
     background: #00AFDB;
     cursor: pointer;
     transition: .3s;
 }
 
-#your-life-button:hover {
+.get-started-btn:hover {
     background: #0080a0;
 }
 
-#your-life-button span {
+.get-started-btn span {
     position: static;
     width: 90px;
     height: 16px;
@@ -367,16 +370,16 @@ nav {
     height: 80px;
     left: 0px;
     top: 76px;
-
-    /* body-14-reg */
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
-    /* or 20px */
-
-
     color: #4E4E4E;
+}
+
+#rappresent-content-btn {
+    position: absolute;
+    left: 0px;
+    top: 186px;
 }
