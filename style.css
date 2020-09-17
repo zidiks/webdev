@@ -659,7 +659,7 @@ color: #4E4E4E;
     top: 0px;
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 24px;
     line-height: 28px;
     display: flex;
@@ -719,8 +719,14 @@ color: #4E4E4E;
 }
 
 #subscribe-form-input:invalid:not(:placeholder-shown) + #subscribe-form-submit{
-    background-color: #ff4a4a !important;
+    background-color: #ff4a4a;
+}
+#subscribe-form-input:invalid:not(:placeholder-shown) + #subscribe-form-submit:hover{
+    background-color: #ce3939;
 }
 #subscribe-form-input:valid:not(:placeholder-shown) + #subscribe-form-submit{
-    background-color: #40e26b !important;
+    background-color: #40e26b;
+}
+#subscribe-form-input:valid:not(:placeholder-shown) + #subscribe-form-submit:hover {
+    background-color: #30b152;
 }
