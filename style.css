@@ -820,7 +820,6 @@ color: #4E4E4E;
 
 #download-ios span {
     position: absolute;
-    width: 91px;
     height: 16px;
     left: 19px;
     top: 18px;
@@ -838,7 +837,6 @@ color: #4E4E4E;
 
 #download-android span {
     position: absolute;
-    width: 94px;
     height: 16px;
     left: 17px;
     top: 18px;
