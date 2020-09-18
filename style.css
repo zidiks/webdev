@@ -910,7 +910,6 @@ footer {
     font-size: 14px;
     line-height: 140%;
     color: #FFFFFF;
-    opacity: 0.98;
     top: 1px;
 }
 
@@ -954,4 +953,13 @@ footer {
     line-height: 20px;
     text-align: center;
     color: #818181;
+}
+
+.additional-hover {
+    transition: opacity .3s;
+    opacity: 0.8;
+}
+
+.additional-hover:hover {
+    opacity: 1;
 }
