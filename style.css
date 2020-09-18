@@ -249,7 +249,6 @@ nav {
 
 .get-started-btn span {
     position: static;
-    width: 90px;
     height: 16px;
     left: calc(50% - 90px/2);
     top: calc(50% - 16px/2);
