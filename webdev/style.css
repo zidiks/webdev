@@ -66,6 +66,10 @@ header {
     justify-content: center;
 }
 
+#header-h1 {
+    height: 0;;
+}
+
 nav {
     position: absolute;
     width: 1600px;
