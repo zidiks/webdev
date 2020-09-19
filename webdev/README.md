@@ -1,2 +1,0 @@
-# webdev
-Webdew by Zidiks
